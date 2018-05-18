@@ -1,0 +1,105 @@
+.App {
+
+}
+
+.App-header {
+  text-align: center;
+  background-color: #007791;
+  height: 60px;
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.Module {
+  margin: 200px 0px 0px 0px;
+}
+
+.Module-Header {
+  color: #007791;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+.Module-Desc {
+  font-style: oblique;
+  font-size: 12px;
+}
+
+.ModuleItem {
+  border-style: solid;
+  border-width: 1px 1px 1px 10px;
+  border-color: #5fba7d;
+  border-radius: 1px 7px 7px 1px;
+
+  margin: 1px 1px 1px 20px;
+  padding-left: 5px;
+  width: 160px;
+  height: 50px;
+
+  display: inline-block;
+  //background-color: #90EE90;
+}
+
+.ModuleItem1 {
+  border-style: solid;
+  border-width: 1px 1px 1px 10px;
+  border-color: gray;
+  border-radius: 1px 7px 7px 1px;
+
+  margin: 1px 1px 1px 20px;
+  padding-left: 5px;
+  width: 160px;
+  height: 50px;
+
+  display: inline-block;
+}
+
+.RequestFormWrapper {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.RequestForm {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid #888;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.CloseButton {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: -30px;
+}
+
+.CloseButton:hover,
+.CloseButton:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.PopupHeader {
+  background-color: #5fba7d;
+  width: 100%;
+  height: 30px;
+  margin-left: -40px;
+  padding-top: 5px;
+  color: white;
+}
